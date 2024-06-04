@@ -1,0 +1,163 @@
+/* Не нашел шрифт, указанный в макете. Поставил Roboto */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    /* margin-bottom: 84px; */
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo__img {
+    width: 35px;
+}
+
+.logo__text {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.logo__text span {
+    color: rgb(242 88 34);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__item {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 600;
+
+}
+
+.drop-list {
+    display: flex;
+    align-items: baseline;
+}
+
+.nav__icon {
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 8px;
+    height: 5px;
+    background-image: url('./img/icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* HOME */
+
+.home {
+    padding-top: 44px;
+}
+
+.home__top {
+    display: flex;
+    gap: 39px;
+    margin-bottom: 162px;
+}
+
+.home__title {
+    margin-bottom: 17px;
+    font-size: 60px;
+    line-height: 70.31px;
+    font-weight: 700;
+}
+
+.home__description {
+    margin-bottom: 37px;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 500;
+    color: #888888;
+}
+
+.top__img {
+    max-width: 610px;
+}
+
+.home__bot {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+.home__buttons {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.home__btn {
+    padding: 15px 36px 16px 35px;
+    background-color: #F25822;
+    border-radius: 50px;
+    
+    color: #fff;
+    font-size: 15px;
+    line-height: 17.58px;
+    font-weight: 700;
+}
+
+.home__link {
+    font-size: 15px;
+    line-height: 17.58px;
+    font-weight: 700;
+    color: #AAAAAA;
+}
+
+.home__bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
